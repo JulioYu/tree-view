@@ -1,0 +1,55 @@
+{
+    "name": "tree-view",
+    "version": "1.0.6",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npm run compile && npm run copy",
+        "compile": "tsc",
+        "copy": "copyfiles -f src/*.css dist",
+        "dev": "webpack-dev-server --progress --hot --content-base build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:JulioYu/tree-view.git"
+    },
+    "author": "julio",
+    "license": "ISC",
+    "peerDependencies": {
+        "utility": "git+https://github.com/JulioYu/utility.git",
+        "checkbox": "git+https://github.com/JulioYu/checkbox.git",
+        "icons": "git+https://github.com/JulioYu/icons.git",
+        "classnames": "2.2.5",
+        "react": "16.4.0",
+        "react-dom": "16.4.0"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.6",
+        "@types/node": "10.5.1",
+        "@types/react": "16.4.6",
+        "checkbox": "git+https://github.com/JulioYu/checkbox.git",
+        "classnames": "2.2.5",
+        "copy-webpack-plugin": "4.5.1",
+        "copyfiles": "2.0.0",
+        "css-loader": "0.28.11",
+        "extract-text-webpack-plugin": "3.0.2",
+        "file-loader": "1.1.11",
+        "html-webpack-plugin": "3.2.0",
+        "icons": "git+https://github.com/JulioYu/icons.git",
+        "postcss-import": "11.1.0",
+        "postcss-loader": "2.1.5",
+        "react": "16.4.0",
+        "react-dom": "16.4.0",
+        "style-loader": "0.21.0",
+        "ts-loader": "3.5.0",
+        "tslint": "5.10.0",
+        "tslint-config-airbnb": "5.9.2",
+        "tslint-eslint-rules": "5.3.1",
+        "tslint-react": "3.6.0",
+        "typescript": "2.9.2",
+        "url-loader": "1.0.1",
+        "utility": "git+https://github.com/JulioYu/utility.git",
+        "webpack": "3.12.0",
+        "webpack-dev-server": "2.11.2"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "data1": [
+        {
+            "index": 1,
+            "id": "A1",
+            "name": "A1",
+            "children": [
+                {
+                    "index": 1,
+                    "id": "A1-1",
+                    "name": "A1-1",
+                    "children": [
+                        {
+                            "index": 1,
+                            "id": "A1-1-1",
+                            "name": "A1-1-1",
+                            "checked": true
+                        },
+                        {
+                            "index": 2,
+                            "id": "A1-1-2",
+                            "name": "A1-1-2",
+                            "checked": true
+                        }
+                    ],
+                    "checked": true
+                }
+            ],
+            "checked": 2
+        },
+        {
+            "index": 2,
+            "id": "A2",
+            "name": "A2",
+            "children": [
+                {
+                    "index": 1,
+                    "id": "A2-1",
+                    "name": "A2-1",
+                    "checked": false
+                }
+            ],
+            "checked": false
+        }
+    ],
+    "data2": [
+        {
+            "index": 1,
+            "id": "A1",
+            "name": "A1",
+            "noCheckbox": true,
+            "children": [
+                {
+                    "index": 1,
+                    "id": "A1-1",
+                    "name": "A1-1",
+                    "noCheckbox": true,
+                    "icon": "icon-folder-open",
+                    "children": [
+                        {
+                            "index": 1,
+                            "id": "A1-1-1",
+                            "name": "A1-1-1",
+                            "checked": true
+                        },
+                        {
+                            "index": 2,
+                            "id": "A1-1-2",
+                            "name": "A1-1-2",
+                            "checked": true
+                        }
+                    ],
+                    "checked": true
+                }
+            ],
+            "checked": 2
+        },
+        {
+            "index": 2,
+            "id": "A2",
+            "name": "A2",
+            "noCheckbox": true,
+            "children": [
+                {
+                    "index": 1,
+                    "id": "A2-1",
+                    "name": "A2-1",
+                    "noCheckbox": true,
+                    "icon": "icon-folder-open",
+                    "checked": false
+                }
+            ],
+            "checked": false
+        }
+    ]
+}

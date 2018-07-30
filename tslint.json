@@ -1,0 +1,132 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-eslint-rules",
+        "tslint-config-airbnb",
+        "tslint-react"
+    ],
+    "rules": {
+        "align": false,
+        "ban-types": false,
+        "brace-style": false,
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "import-name": false,
+        "interface-name": false,
+        "jsx-no-multiline-js": false,
+        "max-line-length": false,
+        "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    {
+                        "name": "static non-private",
+                        "kinds": [
+                            "public-static-field",
+                            "protected-static-field",
+                            "public-static-method",
+                            "protected-static-method"
+                        ]
+                    },
+                    "constructor"
+                ]
+            }
+        ],
+        "no-bitwise": false,
+        "no-else-after-return": false,
+        "no-param-reassign": false,
+        "no-submodule-imports": false,
+        "no-this-assignment": false,
+        "no-use-before-declare": true,
+        "no-var-requires": false,
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "one-line": false,
+        "prefer-for-of": false,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "react/jsx-boolean-value": [
+            "error",
+            "always"
+        ],
+        "react/jsx-filename-extension": [
+            "warn",
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ],
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            4
+        ],
+        "react/sort-comp": [
+            "error",
+            {
+                "order": [
+                    "type-annotations",
+                    "static-methods",
+                    "instance-variables",
+                    "lifecycle",
+                    "/^on.+$/",
+                    "getters",
+                    "setters",
+                    "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+                    "instance-methods",
+                    "everything-else",
+                    "rendering"
+                ],
+                "groups": {
+                    "lifecycle": [
+                        "displayName",
+                        "propTypes",
+                        "contextTypes",
+                        "childContextTypes",
+                        "mixins",
+                        "statics",
+                        "defaultProps",
+                        "constructor",
+                        "getDefaultProps",
+                        "getInitialState",
+                        "state",
+                        "getChildContext",
+                        "componentWillMount",
+                        "componentDidMount",
+                        "componentWillReceiveProps",
+                        "shouldComponentUpdate",
+                        "componentWillUpdate",
+                        "getSnapshotBeforeUpdate",
+                        "componentDidUpdate",
+                        "componentWillUnmount"
+                    ],
+                    "rendering": [
+                        "/^render.+$/",
+                        "render"
+                    ]
+                }
+            }
+        ],
+        "ter-arrow-parens": true,
+        "ter-indent": [
+            true,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ]
+    }
+}

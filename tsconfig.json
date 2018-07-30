@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "types",
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es5",
+            "esnext",
+            "scripthost"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "paths": {
+            "*": [
+                "*",
+                "node_modules/*",
+                "node_modules/*/dist/index"
+            ]
+        },
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "es6",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "demo/**/*",
+        "src/**/*"
+    ]
+}
